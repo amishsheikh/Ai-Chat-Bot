@@ -17,6 +17,8 @@ function setupSocketServer(httpServer) {
 
         })
 
+        /* rooms */
+        
         socket.on('disconnect', () => {
             console.log("A user disconnected");
         });

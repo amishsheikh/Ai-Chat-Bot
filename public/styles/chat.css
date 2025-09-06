@@ -162,3 +162,12 @@ body {
     padding-left: var(--space-6); padding-right: var(--space-6);
   }
 }
+/* Hide hamburger on desktop */
+@media (min-width: 1024px) {
+  #sidebar-open {
+    display: none;
+  }
+  #sidebar-close {
+    display: none; /* don't show close button on desktop either */
+  }
+}
